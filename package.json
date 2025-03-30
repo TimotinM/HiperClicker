@@ -1,0 +1,42 @@
+{
+  "name": "hiperclicker",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/native": "^7.0.19",
+    "@react-navigation/native-stack": "^7.3.3",
+    "@supabase/supabase-js": "^2.49.4",
+    "@types/react-native-linear-gradient": "^2.3.1",
+    "expo": "~52.0.41",
+    "expo-build-properties": "^0.13.2",
+    "expo-crypto": "^14.0.2",
+    "expo-dev-client": "^5.0.15",
+    "expo-haptics": "^14.0.1",
+    "expo-linear-gradient": "^14.0.2",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-google-mobile-ads": "^15.0.0",
+    "react-native-paper": "^5.13.1",
+    "react-native-reanimated": "^3.17.1",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.10.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.3.3",
+    "uuid": "^11.1.0"
+  },
+  "private": true
+}
